@@ -13,22 +13,22 @@ public class Panel {
 
 	public JTextField jf;
 	public JPanel jp;
-	Buttons b;
+	Buttons but;
 	
 	Panel(){
 		jp=new JPanel();
-		b=new Buttons();
+		but=new Buttons();
 		
 	}
 	
-	public void addtextfield(JFrame f) {
+	public void addtf(JFrame f) {
 		jf=new JTextField(11);
 		jp.add(jf);
 		f.getContentPane().add(jp);
 	}
 
-	public void addbuttons(JFrame f) {
-		b.add(jp,f,jf);
+	public void addb(JFrame f) {
+		but.add(jp,f,jf);
 	}
 
 

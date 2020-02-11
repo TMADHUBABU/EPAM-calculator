@@ -11,10 +11,10 @@ public class Window {
 		f=new JFrame("calculator");
 		Panel p=new Panel();
 		
-		p.addtextfield(f);
-		p.addbuttons(f);
+		p.addtf(f);
+		p.addb(f);
 		
-		f.setSize(200,250);
+		f.setSize(300,300);
 		f.setVisible(true);
 	}
 }
